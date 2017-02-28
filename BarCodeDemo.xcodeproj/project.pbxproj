@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E6817ED1E65B0410002194F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6817EC1E65B0410002194F /* AppDelegate.swift */; };
+		3E6817EF1E65B0410002194F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6817EE1E65B0410002194F /* ViewController.swift */; };
+		3E6817F21E65B0410002194F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6817F01E65B0410002194F /* Main.storyboard */; };
+		3E6817F41E65B0410002194F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6817F31E65B0410002194F /* Assets.xcassets */; };
+		3E6817F71E65B0410002194F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6817F51E65B0410002194F /* LaunchScreen.storyboard */; };
+		3E6818021E65B0410002194F /* BarCodeDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6818011E65B0410002194F /* BarCodeDemoTests.swift */; };
+		3E68180D1E65B0930002194F /* BarCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E68180C1E65B0930002194F /* BarCodeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E6817FE1E65B0410002194F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E6817E11E65B0410002194F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E6817E81E65B0410002194F;
+			remoteInfo = BarCodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E6817E91E65B0410002194F /* BarCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6817EC1E65B0410002194F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E6817EE1E65B0410002194F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E6817F11E65B0410002194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E6817F31E65B0410002194F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E6817F61E65B0410002194F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E6817F81E65B0410002194F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E6817FD1E65B0410002194F /* BarCodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarCodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6818011E65B0410002194F /* BarCodeDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeDemoTests.swift; sourceTree = "<group>"; };
+		3E6818031E65B0410002194F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E68180C1E65B0930002194F /* BarCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarCodeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E6817E61E65B0410002194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6817FA1E65B0410002194F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E6817E01E65B0410002194F = {
+			isa = PBXGroup;
+			children = (
+				3E6817EB1E65B0410002194F /* BarCodeDemo */,
+				3E6818001E65B0410002194F /* BarCodeDemoTests */,
+				3E6817EA1E65B0410002194F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E6817EA1E65B0410002194F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E6817E91E65B0410002194F /* BarCodeDemo.app */,
+				3E6817FD1E65B0410002194F /* BarCodeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E6817EB1E65B0410002194F /* BarCodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E6817EC1E65B0410002194F /* AppDelegate.swift */,
+				3E6817EE1E65B0410002194F /* ViewController.swift */,
+				3E6817F01E65B0410002194F /* Main.storyboard */,
+				3E6817F31E65B0410002194F /* Assets.xcassets */,
+				3E6817F51E65B0410002194F /* LaunchScreen.storyboard */,
+				3E6817F81E65B0410002194F /* Info.plist */,
+				3E68180C1E65B0930002194F /* BarCodeViewController.swift */,
+			);
+			path = BarCodeDemo;
+			sourceTree = "<group>";
+		};
+		3E6818001E65B0410002194F /* BarCodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E6818011E65B0410002194F /* BarCodeDemoTests.swift */,
+				3E6818031E65B0410002194F /* Info.plist */,
+			);
+			path = BarCodeDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E6817E81E65B0410002194F /* BarCodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6818061E65B0410002194F /* Build configuration list for PBXNativeTarget "BarCodeDemo" */;
+			buildPhases = (
+				3E6817E51E65B0410002194F /* Sources */,
+				3E6817E61E65B0410002194F /* Frameworks */,
+				3E6817E71E65B0410002194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarCodeDemo;
+			productName = BarCodeDemo;
+			productReference = 3E6817E91E65B0410002194F /* BarCodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E6817FC1E65B0410002194F /* BarCodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6818091E65B0410002194F /* Build configuration list for PBXNativeTarget "BarCodeDemoTests" */;
+			buildPhases = (
+				3E6817F91E65B0410002194F /* Sources */,
+				3E6817FA1E65B0410002194F /* Frameworks */,
+				3E6817FB1E65B0410002194F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E6817FF1E65B0410002194F /* PBXTargetDependency */,
+			);
+			name = BarCodeDemoTests;
+			productName = BarCodeDemoTests;
+			productReference = 3E6817FD1E65B0410002194F /* BarCodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E6817E11E65B0410002194F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "IndrajitSinh Rayjada";
+				TargetAttributes = {
+					3E6817E81E65B0410002194F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Manual;
+					};
+					3E6817FC1E65B0410002194F = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3E6817E81E65B0410002194F;
+					};
+				};
+			};
+			buildConfigurationList = 3E6817E41E65B0410002194F /* Build configuration list for PBXProject "BarCodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E6817E01E65B0410002194F;
+			productRefGroup = 3E6817EA1E65B0410002194F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E6817E81E65B0410002194F /* BarCodeDemo */,
+				3E6817FC1E65B0410002194F /* BarCodeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E6817E71E65B0410002194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6817F71E65B0410002194F /* LaunchScreen.storyboard in Resources */,
+				3E6817F41E65B0410002194F /* Assets.xcassets in Resources */,
+				3E6817F21E65B0410002194F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6817FB1E65B0410002194F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E6817E51E65B0410002194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E68180D1E65B0930002194F /* BarCodeViewController.swift in Sources */,
+				3E6817EF1E65B0410002194F /* ViewController.swift in Sources */,
+				3E6817ED1E65B0410002194F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6817F91E65B0410002194F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6818021E65B0410002194F /* BarCodeDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E6817FF1E65B0410002194F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E6817E81E65B0410002194F /* BarCodeDemo */;
+			targetProxy = 3E6817FE1E65B0410002194F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3E6817F01E65B0410002194F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6817F11E65B0410002194F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E6817F51E65B0410002194F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E6817F61E65B0410002194F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E6818041E65B0410002194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E6818051E65B0410002194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E6818071E65B0410002194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BarCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BarCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3E6818081E65B0410002194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BarCodeDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BarCodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3E68180A1E65B0410002194F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BarCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCodeDemo.app/BarCodeDemo";
+			};
+			name = Debug;
+		};
+		3E68180B1E65B0410002194F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarCodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BarCodeDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarCodeDemo.app/BarCodeDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E6817E41E65B0410002194F /* Build configuration list for PBXProject "BarCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6818041E65B0410002194F /* Debug */,
+				3E6818051E65B0410002194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6818061E65B0410002194F /* Build configuration list for PBXNativeTarget "BarCodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E6818071E65B0410002194F /* Debug */,
+				3E6818081E65B0410002194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3E6818091E65B0410002194F /* Build configuration list for PBXNativeTarget "BarCodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E68180A1E65B0410002194F /* Debug */,
+				3E68180B1E65B0410002194F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E6817E11E65B0410002194F /* Project object */;
+}
